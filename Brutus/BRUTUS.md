@@ -6,7 +6,7 @@ Neste Sherlock muito fácil, você vai se familiarizar com Unix auth.log e logs 
 
 - Analise o auth.log. Qual é o endereço IP usado pelo invasor para realizar um ataque de força bruta? 
   Obtemos o arquivo Brutus.zip para download no htb:
-  ![[Imagens/imagem14.png]]
+  ![Imagem](Imagens/imagem14.png)
   
   descompactamos então o arquivo utilizando a ferramenta 7zip com o comando: `7z x Brutus.zip`, conseguindo assim os arquivos: **auth.log**, **utmp.py** e **wtmp**.
   
